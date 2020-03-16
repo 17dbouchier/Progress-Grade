@@ -1,4 +1,52 @@
+/*
+  green primary color: #41B900
+*/
+
 * {
   margin: 0;
   padding: 0;
+  font-family: 'OpenSansRegular';
+}
+
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url('fonts/OpenSans-Regular.ttf');
+}
+
+.navigation {
+  background-color: #369A00;
+}
+
+nav li {
+  color: white;
+}
+
+#showcase {
+  background-image: url('jacks.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase h1 {
+  margin: 20px;
+  padding: 10px;
+  padding-bottom: 0;
+  font-size: 50px;
+  color: white;
+}
+
+#showcase .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: #91c2ff;
+  background-color: #369A00;
+  padding: 10px 20vh;
+  margin-top: 36px;
 }
