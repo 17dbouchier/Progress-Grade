@@ -1,5 +1,5 @@
 /*
-  green primary color: #41B900
+  green primary color: #369A00
 */
 
 * {
@@ -72,11 +72,30 @@ nav li {
   font-family: 'OpenSansLight', sans-serif;
   margin: 80px auto;
   padding: 40px;
-  border: solid 4px #41B900;
+  border: solid 4px #369A00;
 }
 
 #the-hills img {
   width: 72.9%;
   margin: 0 auto;
   display: flex;
+}
+
+.footer {
+  padding: 40px;
+  background-color: #369A00;
+  display: flex;
+  align-items: flex;
+  justify-content: space-around;
+}
+
+.footer p {
+  width: 40%;
+  font-size: 18px;
+  color: white;
+  font-family: 'OpenSansLight', sans-serif;
+}
+
+#map {
+  width: 40%;
 }
