@@ -5,12 +5,17 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'OpenSansRegular';
+  font-family: 'OpenSansRegular', sans-serif;
 }
 
 @font-face {
   font-family: 'OpenSansRegular';
   src: url('fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'OpenSansLight';
+  src: url('fonts/OpenSans-Light.ttf');
 }
 
 .navigation {
@@ -30,7 +35,7 @@ nav li {
   color: white;
 }
 
-#showcase {
+.showcase {
   background-image: url('jacks.jpg');
   background-size: cover;
   background-position: center;
@@ -43,7 +48,7 @@ nav li {
   padding: 0 20px;
 }
 
-#showcase h1 {
+.showcase h1 {
   margin: 20px;
   padding: 10px;
   padding-bottom: 0;
@@ -51,11 +56,27 @@ nav li {
   color: white;
 }
 
-#showcase .button {
+.showcase .button {
   font-size: 18px;
   text-decoration: none;
   color: white;
   background-color: #369A00;
   padding: 10px 20vh;
   margin-top: 36px;
+}
+
+.paragraph p {
+  width: 66.6%;
+  text-align: justify;
+  font-size: 18px;
+  font-family: 'OpenSansLight', sans-serif;
+  margin: 80px auto;
+  padding: 40px;
+  border: solid 4px #41B900;
+}
+
+#the-hills img {
+  width: 72.9%;
+  margin: 0 auto;
+  display: flex;
 }
