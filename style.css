@@ -14,7 +14,16 @@
 }
 
 .navigation {
+  width: 100%;
+  position: fixed;
+  padding: 14px 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  list-style-type: none;
   background-color: #369A00;
+  display: flex;
+  align-items: flex;
+  justify-content: space-around;
 }
 
 nav li {
@@ -45,7 +54,7 @@ nav li {
 #showcase .button {
   font-size: 18px;
   text-decoration: none;
-  color: #91c2ff;
+  color: white;
   background-color: #369A00;
   padding: 10px 20vh;
   margin-top: 36px;
